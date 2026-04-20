@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
@@ -18,7 +18,7 @@ import Checkout from './pages/Checkout/Checkout';
 
 function App() {
   return (
-    <Router future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
+    <Router>
       <CartProvider>
         <WishlistProvider>
           <div className="app">
@@ -35,14 +35,7 @@ function App() {
             </main>
             <Footer />
           </div>
-          <ToastContainer
-            position="bottom-right"
-            autoClose={2500}
-            hideProgressBar={false}
-            newestOnTop
-            closeOnClick
-            pauseOnHover
-          />
+          <ToastContainer position="bottom-right" autoClose={2500} />
         </WishlistProvider>
       </CartProvider>
     </Router>
