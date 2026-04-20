@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/LuxeShop_website/static/css/main.633c8df8.css",
+    "main.js": "/LuxeShop_website/static/js/main.6c9922d4.js",
+    "index.html": "/LuxeShop_website/index.html",
+    "main.633c8df8.css.map": "/LuxeShop_website/static/css/main.633c8df8.css.map",
+    "main.6c9922d4.js.map": "/LuxeShop_website/static/js/main.6c9922d4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.633c8df8.css",
+    "static/js/main.6c9922d4.js"
+  ]
+}
