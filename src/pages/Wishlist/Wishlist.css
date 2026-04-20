@@ -1,0 +1,13 @@
+.wishlist-page {
+  padding: 40px 24px 80px;
+}
+
+.wishlist-header {
+  margin-bottom: 36px;
+}
+
+.wishlist-subtitle {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin-top: 6px;
+}
